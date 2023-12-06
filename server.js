@@ -9,7 +9,7 @@ const HOST = '0.0.0.0';
 // App
 const app = express();
 app.get('/', (req, res) => {
-  res.send('CPSY 350 Project: Github Actions CI. SAIT ID:0001222');
+  res.send('CPSY 350 Project: Github Actions CI. SAIT ID:0002');
 });
 
 const server = app.listen(PORT, HOST);
